@@ -1,0 +1,163 @@
+/* import font awesome */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+html, body{
+    font-family: Montserrat, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: #fdfdfd;
+    height: 100%;
+}
+
+h1, h2, h3, h4{
+    color: #C8102E;
+    font-weight: 800;
+}
+h5{
+    color: #000000;
+    font-weight: 800;
+}
+
+.fs-6 {
+    font-size: 14px !important;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+header{
+    background: #fff;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+    padding: 10px 0;
+    height: 80px;
+}
+
+.nav-pills .nav-link{
+    color: #C8102E;
+    border-radius: 15px;
+    font-weight: 600;
+}
+.nav-pills .nav-link.active{
+    background: #C8102E;
+    color: #fff;
+}
+
+.h-profile .profile-link{
+    display: inline-block;
+    text-decoration: none;
+}
+.h-profile .profile-link i{
+    background: #000;
+    color: #fff;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.h-profile .profile-link label{
+    color: #C8102E;
+    font-size: 12px;
+}
+
+label{
+    font-weight: 800;
+    color: #C8102E;
+}
+
+.body-content{
+    padding: 30px 0;
+    min-height: calc(100% - 140px);
+}
+
+.card{
+    width: 100%;
+    border-radius: 10px;
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+.card.bg-grey {
+    background:#FDF3F1;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer{
+    background: #C8102E;
+    color: #fff;
+    padding: 10px 0;
+    height: 60px;
+}
+
+form label{
+    color:#C8102E;
+    font-weight: 800;
+}
+.img{
+    width: 100%;
+    max-width: 200px;
+}
+
+.btn {
+    border-radius: 10px;
+    outline: none;
+}
+.btn.btn-primary {
+    background: #C8102E;
+    border: 1px solid #C8102E;
+    color: #ffffff;
+}
+.btn:hover {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+.btn:active {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.6) inset;
+    transform: translate(0, 1px);
+}
+.btn.btn-primary:active {
+    background: #C8102E;
+    border: 1px solid #C8102E;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.cards-stack .d-flex .card{
+    flex: calc(50% - 20px);
+    text-align: center;
+}
+.cards-stack .d-flex .card label{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.membershipCard{
+    background: #C8102E;
+}
+.membershipCard h4{
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.membershipCard label{
+    background: #ffffff;
+    color: #000000;
+    padding: 5px 20px;
+    border-radius: 10px 0 10px 0;
+    display: block;
+}
+
+.d-flex .btn{
+    flex: content;
+}
+
+
+
+
+
+
+
+
+
+
